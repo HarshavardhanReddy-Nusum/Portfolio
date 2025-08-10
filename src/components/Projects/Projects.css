@@ -5,21 +5,55 @@
     text-align: center;
 }
 
-.projects-title h1{
-    font-size: 100px;
+/* Responsive margins for smaller screens */
+@media (max-width: 1024px) {
+    .projects-section {
+        margin: 100px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-section {
+        margin: 70px 20px;
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-section {
+        margin: 50px 15px;
+        padding: 2rem 0;
+    }
+}
+
+.projects-title h1 {
+    font-size: 80px;
     font-weight: 600;
     margin-bottom: 3rem;
     color: white;
     text-decoration: underline;
 }
 
+/* Smaller font size for tablets and below */
+@media (max-width: 768px) {
+    .projects-title h1 {
+        font-size: 50px;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-title h1 {
+        font-size: 36px;
+        margin-bottom: 1.5rem;
+    }
+}
+
 .projects-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 2rem;
-    /* max-width: 1000px;
-    margin: auto;
-    padding: 0 1rem; */
 }
 
 .projects-container {
@@ -55,38 +89,41 @@
 }
 
 .project-buttons {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* wrap on small screens */
 }
 
 .btn {
-  padding: 8px 14px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  color: white;
-  transition: background 0.3s ease;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background 0.3s ease;
+    white-space: nowrap;
 }
 
 .live-btn {
-  background-color: #28a745;
+    background-color: #28a745;
 }
 
 .code-btn {
-  background-color: #007bff;
+    background-color: #007bff;
 }
 
 .btn:hover {
-  opacity: 0.85;
+    opacity: 0.85;
 }
 
-@media(max-width:768px) {
-  .projects-title h1 {
-     font-size: 50px;
-        padding: 0;
-  }
+/* On very small screens, reduce button padding and font size */
+@media (max-width: 480px) {
+    .btn {
+        padding: 6px 10px;
+        font-size: 0.85rem;
+    }
 }
