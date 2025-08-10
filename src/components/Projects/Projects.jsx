@@ -17,7 +17,7 @@ const projects = [
   {
     title: "Portfolio",
     desc: "My personal portfolio built using React.",
-    live: "https://myportfolio.com",
+    live: "https://portfolio-lcxv.onrender.com",
     code: "https://github.com/HarshavardhanReddy-Nusum/Portfolio/tree/portfolio"
   }
 ];
