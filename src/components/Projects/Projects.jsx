@@ -18,7 +18,7 @@ const projects = [
     title: "Portfolio",
     desc: "My personal portfolio built using React.",
     live: "https://myportfolio.com",
-    code: "https://github.com/HarshavardhanReddy-Nusum/Portfolio"
+    code: "https://github.com/HarshavardhanReddy-Nusum/Portfolio/tree/portfolio"
   }
 ];
 
