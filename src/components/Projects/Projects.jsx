@@ -9,10 +9,10 @@ const projects = [
     code: "https://github.com/HarshavardhanReddy-Nusum/Wanderlust"
   },
   {
-    title: "EchoMeet",
-    desc: "A Zoom clone built using WebRTC, React, Socket.io, and Peer-to-Peer streaming.",
-    live: "https://echomeet-1.onrender.com",
-    code: "https://github.com/HarshavardhanReddy-Nusum/EchoMeet/tree/harsha"
+    title: "FreshBasket",
+    desc: "A modern, user-friendly online grocery platform that allows customers to shop for fresh fruits, vegetables, and essentials from the comfort of their home.",
+    live: 'https://github.com/HarshavardhanReddy-Nusum/Fresh-Basket',
+    code: "https://github.com/HarshavardhanReddy-Nusum/Fresh-Basket"
   },
   {
     title: "Portfolio",
