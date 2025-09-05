@@ -37,13 +37,13 @@ const Hero = () => {
                             &times;
                         </span>
                         <iframe
-                            src="/Harsha reddy.pdf"
+                            src="/HarshavardhanReddy_resume.pdf"
                             title="Resume"
                             width="100%"
                             height="500px"
                         ></iframe>
                         <a 
-                            href="/Harsha reddy.pdf" 
+                            href="/HarshavardhanReddy_resume.pdf" 
                             download="Harshavardhan_Reddy_Resume.pdf" 
                             className="download-btn"
                         >
