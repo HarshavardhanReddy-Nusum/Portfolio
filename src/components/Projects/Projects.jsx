@@ -9,10 +9,22 @@ const projects = [
     code: "https://github.com/HarshavardhanReddy-Nusum/Wanderlust"
   },
   {
+    title: "E-Commerce-platform",
+    desc: "A modern, user-friendly online platform that allows customers to shop for essentials from the comfort of their home.",
+    live: 'https://e-commerce-platform-nine-ruddy.vercel.app/',
+    code: "https://github.com/HarshavardhanReddy-Nusum/E-commerce-platform"
+  },
+  {
     title: "FreshBasket",
     desc: "A modern, user-friendly online grocery platform that allows customers to shop for fresh fruits, vegetables, and essentials from the comfort of their home.",
     live: 'https://github.com/HarshavardhanReddy-Nusum/Fresh-Basket',
     code: "https://github.com/HarshavardhanReddy-Nusum/Fresh-Basket"
+  },
+  {
+    title: "Hospital Management System",
+    desc: "A console-based Hospital Management System developed using Java, JDBC, and MySQL to manage essential hospital operations such as patient records, doctor information, appointments, and billing.",
+    live: 'https://github.com/HarshavardhanReddy-Nusum/Hospital-Management-System',
+    code: "https://github.com/HarshavardhanReddy-Nusum/Hospital-Management-System"
   },
   {
     title: "Portfolio",
